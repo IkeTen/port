@@ -133,24 +133,24 @@ header li a:hover {
     border-right: 4px solid rgba(255, 255, 255, 1);
   }
 
-  /* @keyframes typing {
-    75% {
-      width: 0ch;
-      color: rgba(249, 105, 14, 1);
-    }
-    100% {
-      width: 27ch;
-    }
+@keyframes typing {
+  75% {
+    width: 0ch;
+    color: rgba(249, 105, 14, 1);
   }
-  
-  @keyframes blink {
-    0% {
-      border-right: 4px solid rgba(255, 255, 255, 0);
-    }
-    100% {
-      border-right: 4px solid rgb(194, 194, 194);
-    }
-  } */
+  100% {
+    width: 27ch;
+  }
+}
+
+@keyframes blink {
+  0% {
+    border-right: 4px solid rgba(255, 255, 255, 0);
+  }
+  100% {
+    border-right: 4px solid rgb(194, 194, 194);
+  }
+}
   
   .main-message h3 {
     font-size: 4rem;
